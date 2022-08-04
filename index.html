@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>my first project</title>
+        <title>my first project</title> 
+        <link rel="stylesheet" href="index.css" type="text/css">
     </head>
     <body>
         <form>
            <h1>From Registration</h1>
-           First name : <input type="text" name="firstname"/>
-           last name : <input type="text" name="lastname"/><br><br>
+           First name : <input type="text" name="firstname" size="10"/>
+           last name : <input type="text" name="lastname" size="15"/><br><br>
            Email id : <input type="text" name="mail-id" placeholder="abcd@gmail.com"/>
            password : <input type="password" name="password"/><br><br>
+<select name="dropdown">
+           <option name="male">MALE</option>
+           <option name="FEMALE" >FEMALE</option></select><br><br>
            Maths <input type="radio" name="subject" value="off"/>
-           english <input type="radio" name="subject" value="on"/></br></br>
+           english <input type="radio" name="subject" value="on"/></br></br>Description:<br>
+           <textarea rows="5" cols="30" name="description" ></textarea><br><br>
+           <input type="file" name="fileupload" ><br><br>
+           <video  src="/video/951ed639ec384f83ad1c99c6b1ce2533.mp4"  controls width="500">
+This browser doesn't support video tag
+           </video><br><br>
            <input type="button" name="submit" value="submit"/>
            <input type="reset" name="reset" value="RESET"/>
            </form>
